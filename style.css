@@ -3,6 +3,9 @@ h2,
 p {
     margin: 0;
     padding: 0;
+    color: #dee2e6;
+    font-family: "Playwrite NZ Basic";
+    text-align: justify;
 }
 
 .header-container {
@@ -12,7 +15,7 @@ p {
 }
 
 .body-container {
-    background-color: rgb(108, 200, 236);
+    background-color: #161a1d;
 }
 
 .main-container {
@@ -31,7 +34,7 @@ p {
 }
 
 .elements-container {
-    background-color: rgb(223, 173, 107);
+    background-color: #660708;
     margin: 25px;
     padding: 25px;
 
@@ -67,12 +70,49 @@ p {
             display: flex;
             justify-content: space-between;
             img{
-                 width: 45%;
+                width: 45%;
                 height: 170px;
                 margin: 10px;
-                
+
             }
         }
+    }
+
+    .img-container-videogame{
+        .img-elements-videogames{
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 45%;
+                height: 170px;
+                margin: 10px;
+
+            }
+        }
+    }
+
+    .text-container{
+        padding: 20px;
+        background-color: #6c757d;
+        border-radius: 10px;
+    }
+
+    .text-container-music{
+        padding: 20px;
+        background-color: #6c757d;
+        border-radius: 10px;
+    }
+
+    .text-container-picture{
+        padding: 20px;
+        background-color: #6c757d;
+        border-radius: 10px;
+    }
+
+    .text-container-videogame{
+        padding: 20px;
+        background-color: #6c757d;
+        border-radius: 10px;
     }
 
 }
